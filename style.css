@@ -1,0 +1,82 @@
+.mainBody {
+    overflow: hidden;
+    background-image: url("resources/background.jpg");
+    /* background-color: bisque; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+}
+
+.cover {
+    background-image: url("resources/logo1.svg");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+}
+
+.title0 {
+    font-size: 25px;
+    font-family: "Electric";
+}
+
+.logo {
+    background-image: url("resources/logo2.svg");
+    height: 80px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    font-family: "Electric";
+}
+
+* {
+    font-family: "Quick";
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: "Quick";
+    src: url("resources/fonts/Quick.ttf");
+}
+@font-face {
+    font-family: "Electric";
+    src: url("resources/fonts/Electric.otf");
+}
+
+.containBox {
+    margin-top: -100vh;
+}
+
+.slider-img{
+    height: 490px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.emptyView {
+    height: 250px;
+    background-image: url("resources/watchListEmptyView.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.emptyCart {
+    height: 250px;
+    background-image: url("resources/emptycart.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.invoiceHeaderImage {
+    height: 90px;
+    background-image: url("resources/logo1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
